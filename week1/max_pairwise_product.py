@@ -14,5 +14,5 @@ def max_pairwise_product(integers):
       
 if __name__ == '__main__':
     input_length = int(input())
-    input_numbers = [int(x) for x in input().split()]
-    print(max_pairwise_product(input_numbers))
+    input_integers = [int(x) for x in input().split()]
+    print(max_pairwise_product(input_integers))
